@@ -1,0 +1,12 @@
+1. kunt u in een paar zinnen samenvatten waar dit project over gaat?
+2. waarom wilt u een app?
+3. welke schermen moeten in de applicatie zitten?
+4. wat is het doel van de applicatie
+5. wat is de doelgroep van deze applicatie?
+6. welke kleuren moeten er gebruikt worden(huisstijl)?
+7. wat moet het lettertype zijn?
+8. heeft u een logo die u wilt terug zien in de applicatie?
+	waar? begin scherm?
+9. watvoor informatie moet de app bevatten?
+10. moet de gebruiker kunnen registreren of inloggen?
+11. wanneer staat de deadline van dit project?
