@@ -49,6 +49,7 @@
 
     <Button
         android:id="@+id/over"
+        android:onClick="configureOverActivity"
         android:layout_width="155dp"
         android:layout_height="155dp"
         android:backgroundTint="#CC2D2D"
@@ -64,6 +65,7 @@
 
     <Button
         android:id="@+id/speel"
+        android:onClick="configureSpeelActivity"
         android:layout_width="155dp"
         android:layout_height="155dp"
         android:backgroundTint="#99CC33"
@@ -75,10 +77,11 @@
         app:layout_constraintHorizontal_bias="0.23"
         app:layout_constraintStart_toEndOf="@+id/oefenen"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543" />
+        app:layout_constraintVertical_bias="0.543"/>
 
     <Button
         android:id="@+id/oefenen"
+        android:onClick="configureOefenActivity"
         android:layout_width="155dp"
         android:layout_height="155dp"
         android:backgroundTint="#0099CC"
@@ -95,6 +98,7 @@
 
     <Button
         android:id="@+id/score"
+        android:onClick="configureScoreActivity"
         android:layout_width="155dp"
         android:layout_height="155dp"
         android:backgroundTint="#FFE513"
@@ -109,11 +113,12 @@
         app:layout_constraintVertical_bias="0.144" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="149dp"
-        android:layout_height="87dp"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="27dp"
+        android:id="@+id/imageView2"
+        android:layout_width="159dp"
+        android:layout_height="111dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp"
         tools:srcCompat="@tools:sample/avatars" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
