@@ -1,0 +1,6 @@
+com/example/amazighquiz/MainActivity.java
+ com.example.amazighquiz.MainActivity
+com/example/amazighquiz/BuildConfig.java
+ com.example.amazighquiz.BuildConfig
+com/example/amazighquiz/Oefen.java
+ com.example.amazighquiz.Oefen
