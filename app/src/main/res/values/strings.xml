@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AmazighQuiz</string>
+    <string name="Oefenen">Oefenen</string>
+    <string name="Speel">Speel</string>
+    <string name="Score">Score</string>
+    <string name="Over">Over</string>
+    <string name="learn_amazigh">Learn Amazigh!</string>
 </resources>
