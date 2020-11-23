@@ -18,8 +18,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.amazighquiz.Oefen" />
-        <activity android:name="com.example.amazighquiz.MainActivity" >
+        <activity
+            android:name="com.example.amazighquiz.Oefen"
+            android:label="Oefen" />
+        <activity
+            android:name="com.example.amazighquiz.MainActivity"
+            android:label="Home" />
+        <activity android:name="com.example.amazighquiz.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

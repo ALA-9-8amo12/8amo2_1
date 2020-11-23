@@ -2,5 +2,8 @@ com/example/amazighquiz/MainActivity.java
  com.example.amazighquiz.MainActivity
 com/example/amazighquiz/BuildConfig.java
  com.example.amazighquiz.BuildConfig
+com/example/amazighquiz/SplashScreen.java
+ com.example.amazighquiz.SplashScreen
+ com.example.amazighquiz.SplashScreen$1
 com/example/amazighquiz/Oefen.java
  com.example.amazighquiz.Oefen
