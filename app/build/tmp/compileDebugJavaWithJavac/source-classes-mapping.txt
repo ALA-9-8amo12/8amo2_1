@@ -1,9 +1,21 @@
-com/example/amazighquiz/MainActivity.java
- com.example.amazighquiz.MainActivity
-com/example/amazighquiz/BuildConfig.java
- com.example.amazighquiz.BuildConfig
+com/example/amazighquiz/Oefen/Categorie.java
+ com.example.amazighquiz.Oefen.Categorie
+com/example/amazighquiz/Oefen/MainOefenCategorieen.java
+ com.example.amazighquiz.Oefen.MainOefenCategorieen
+ com.example.amazighquiz.Oefen.MainOefenCategorieen$1
+com/example/amazighquiz/Oefen/Oefen.java
+ com.example.amazighquiz.Oefen.Oefen
 com/example/amazighquiz/SplashScreen.java
  com.example.amazighquiz.SplashScreen
  com.example.amazighquiz.SplashScreen$1
-com/example/amazighquiz/Oefen.java
- com.example.amazighquiz.Oefen
+com/example/amazighquiz/Oefen/OefenCategorieen.java
+ com.example.amazighquiz.Oefen.OefenCategorieen
+com/example/amazighquiz/BuildConfig.java
+ com.example.amazighquiz.BuildConfig
+com/example/amazighquiz/MainActivity.java
+ com.example.amazighquiz.MainActivity
+com/example/amazighquiz/Oefen/MainOefen.java
+ com.example.amazighquiz.Oefen.MainOefen
+com/example/amazighquiz/Oefen/OefenAdapter.java
+ com.example.amazighquiz.Oefen.OefenAdapter
+ com.example.amazighquiz.Oefen.OefenAdapter$Viewholder

@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Oefen" android:label="Oefen"/>
-        <activity android:name=".MainActivity" android:label="Home"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="Home" />
+        <activity android:name=".Oefen.MainOefen" />
+        <activity android:name=".Oefen.MainOefenCategorieen" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

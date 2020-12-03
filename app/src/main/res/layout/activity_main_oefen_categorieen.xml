@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Oefen.MainOefenCategorieen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <ImageView
+                android:id="@+id/ImageDieren1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image" />
+
+            <TextView
+                android:id="@+id/CategorieDieren1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="" />
+
+            <Button
+                android:id="@+id/OefenenDieren1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="configureDieren1Activity"
+                android:text="Oefenen" />
+
+
+            <ImageView
+                android:id="@+id/ImageDieren2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image" />
+
+            <TextView
+                android:id="@+id/CategorieDieren2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="" />
+
+            <Button
+                android:id="@+id/OefenenDieren2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="configureDieren2Activity"
+                android:text="Oefenen" />
+
+            <ImageView
+                android:id="@+id/ImageEten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image" />
+
+            <TextView
+                android:id="@+id/CategorieEten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="" />
+
+            <Button
+                android:id="@+id/OefenenEten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="configureEtenActivity"
+                android:text="Oefenen" />
+
+            <ImageView
+                android:id="@+id/ImageFruit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image" />
+
+            <TextView
+                android:id="@+id/CategorieFruit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="" />
+
+            <Button
+                android:id="@+id/OefenenFruit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="configureFruitActivity"
+                android:text="Oefenen" />
+
+            <ImageView
+                android:id="@+id/ImageGroente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image" />
+
+            <TextView
+                android:id="@+id/CategorieGroente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="" />
+
+            <Button
+                android:id="@+id/OefenenGroente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="configureGroenteActivity"
+                android:text="Oefenen" />
+
+            <ImageView
+                android:id="@+id/ImageInsecten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image" />
+
+            <TextView
+                android:id="@+id/CategorieInsecten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="" />
+
+            <Button
+                android:id="@+id/OefenenInsecten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="configureInsectenActivity"
+                android:text="Oefenen" />
+
+            <ImageView
+                android:id="@+id/ImageKleding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image" />
+
+            <TextView
+                android:id="@+id/CategorieKleding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="" />
+
+            <Button
+                android:id="@+id/OefenenKleding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="configureKledingActivity"
+                android:text="Oefenen" />
+
+            <ImageView
+                android:id="@+id/ImageKleuren"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image" />
+
+            <TextView
+                android:id="@+id/CategorieKleuren"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="" />
+
+            <Button
+                android:id="@+id/OefenenKleuren"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="configureKleurenActivity"
+                android:text="Oefenen" />
+
+            <ImageView
+                android:id="@+id/ImageWeer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Image" />
+
+            <TextView
+                android:id="@+id/CategorieWeer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="" />
+
+            <Button
+                android:id="@+id/OefenenWeer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="configureWeerActivity"
+                android:text="Oefenen" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
