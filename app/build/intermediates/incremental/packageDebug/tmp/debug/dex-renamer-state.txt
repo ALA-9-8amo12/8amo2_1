@@ -1,4 +1,4 @@
-#Thu Dec 03 12:21:08 CET 2020
+#Thu Dec 03 17:45:40 CET 2020
 base.0=C\:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

@@ -25,7 +25,7 @@ public class MainOefen extends AppCompatActivity {
         setContentView(R.layout.activity_main_oefen);
 
         Intent intent = getIntent();
-        String categorie = intent.getStringExtra(EXTRA_TEXT);
+        String categorie = intent.getStringExtra(MainOefenCategorieen.EXTRA_TEXT);
 
         // database
         db = FirebaseDatabase.getInstance().getReference();
