@@ -22,6 +22,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.amazighquiz.Speel.MainSpeelCategorieen" />
+        <activity android:name="com.example.amazighquiz.Speel.MainSpeel" />
         <activity
             android:name="com.example.amazighquiz.MainActivity"
             android:label="Home" />

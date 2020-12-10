@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Maurice\.gradle\caches\transforms-2\files-2.1\2fefabd6733c9c04de9195dab3a00cd6\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Maurice\.gradle\caches\transforms-2\files-2.1\e1964d6ef04750616628d079f9dafb53\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Maurice\.gradle\caches\transforms-2\files-2.1\b0f78253426e641fb17cc514cc292ff6\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -58,25 +58,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Maurice\.gradle\
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Maurice\.gradle\caches\transforms-2\files-2.1\e35f7c3d19f246f1fe0c01c016b66dc0\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Maurice\.gradle\caches\transforms-2\files-2.1\b18cc31e3fd95f1f77ff5d40fd28c0e3\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Maurice\.gradle\caches\transforms-2\files-2.1\7d2fd2a9ae3ac4b954cb48a093ea7a50\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Maurice\.gradle\caches\transforms-2\files-2.1\2fefabd6733c9c04de9195dab3a00cd6\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Maurice\.gradle\caches\transforms-2\files-2.1\2fefabd6733c9c04de9195dab3a00cd6\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Maurice\.gradle\caches\transforms-2\files-2.1\e1964d6ef04750616628d079f9dafb53\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -121,34 +121,42 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Maurice\.gradl
 		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.amazighquiz.Speel.MainSpeelCategorieen
+ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:12:9-73
+	android:name
+		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:12:19-61
+activity#com.example.amazighquiz.Speel.MainSpeel
+ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:13:9-53
+	android:name
+		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:13:19-50
 activity#com.example.amazighquiz.MainActivity
-ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:12:9-14:36
+ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:14:9-16:36
 	android:label
-		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:14:13-33
+		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:16:13-33
 	android:name
-		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:15:13-41
 activity#com.example.amazighquiz.Oefen.MainOefen
-ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:15:9-53
+ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:17:9-53
 	android:name
-		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:15:19-50
+		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:17:19-50
 activity#com.example.amazighquiz.Oefen.MainOefenCategorieen
-ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:16:9-64
+ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:18:9-64
 	android:name
-		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:16:19-61
+		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:18:19-61
 activity#com.example.amazighquiz.SplashScreen
-ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:19:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Maurice\Desktop\School\L3\ALA\8amo2_1\app\src\main\AndroidManifest.xml

@@ -2004,8 +2004,12 @@ layout abc_tooltip
 layout activity_main
 layout activity_main_oefen
 layout activity_main_oefen_categorieen
+layout activity_main_speel
+layout activity_main_speel_categorieen
 layout activity_oefen
 layout activity_oefen_categorieen
+layout activity_speel
+layout activity_speel_categorieen
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

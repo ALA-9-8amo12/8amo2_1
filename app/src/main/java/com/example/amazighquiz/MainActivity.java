@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.example.amazighquiz.Oefen.MainOefen;
 import com.example.amazighquiz.Oefen.MainOefenCategorieen;
+import com.example.amazighquiz.Speel.MainSpeelCategorieen;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void configureSpeelActivity(View view) {
-        startActivity(new Intent(MainActivity.this, MainOefenCategorieen.class));
+        startActivity(new Intent(MainActivity.this, MainSpeelCategorieen.class));
     }
 
     public void configureScoreActivity(View view) {
