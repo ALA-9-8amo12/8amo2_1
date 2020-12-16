@@ -12,87 +12,9 @@
     android:scrollbars="vertical"
     app:cardCornerRadius="20dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:id="@+id/recyclerCategorie"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:text="Categorie"
-            android:textColor="#000"
-            android:textSize="20sp"
-            android:textStyle="bold"
-
-            />
-
-        <TextView
-            android:id="@+id/recyclerVraag"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:text="Vraag"
-            android:textColor="#000"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/recyclerImage"
-            android:layout_width="match_parent"
-            android:layout_height="100pt"
-            android:layout_marginTop="1dp"
-            android:layout_marginEnd="1dp"
-            android:layout_marginRight="1dp"
-            android:contentDescription="image" />
-
-        <TextView
-            android:id="@+id/recyclerNed"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:text="Ned" />
-
-        <TextView
-            android:id="@+id/recyclerAmazigh"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="26dp"
-            android:layout_marginEnd="16dp"
-            android:text="Amazigh" />
-
-        <Button
-            android:id="@+id/recyclerGeluid"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="75dp"
-            android:layout_marginEnd="16dp"
-            android:text="Speel" />
-
-
-        <SeekBar
-            android:id="@+id/seekBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="145dp"
-            android:layout_marginEnd="16dp"
-            android:text="Amazigh" />
-
-    </LinearLayout>
+   <ImageView
+       android:id="@+id/imageSpeel"
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:layout_margin="10dp" />
 </androidx.cardview.widget.CardView>

@@ -1735,6 +1735,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageSpeel
 id imageView
 id imageView2
 id info
@@ -2159,6 +2160,7 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string image
 string learn_amazigh
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
@@ -2194,6 +2196,8 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string option1
+string option2
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

@@ -1,24 +1,54 @@
 package com.example.amazighquiz.Speel;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Adapter;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.amazighquiz.Speel.MainSpeelCategorieen;
 import com.example.amazighquiz.Speel.Speel;
 import com.example.amazighquiz.Speel.SpeelAdapter;
 import com.example.amazighquiz.R;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 
 public class MainSpeel extends AppCompatActivity {
 
+    private static final String TAG = "MyActivity";
+    ImageView imageView;
     SpeelAdapter adapter;
     DatabaseReference db;
-    ViewPager2 viewPager2;
+    RecyclerView recyclerView;
+    String categorie;
+    List<Speel> speelList;
+    List<Speel> antwoordList;
+    List<Integer> repNumb;
+    int count;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,29 +56,94 @@ public class MainSpeel extends AppCompatActivity {
         setContentView(R.layout.activity_main_speel);
 
         Intent intent = getIntent();
-        String categorie = intent.getStringExtra(MainSpeelCategorieen.EXTRA_TEXT);
+        categorie = intent.getStringExtra(MainSpeelCategorieen.EXTRA_TEXT);
 
         // database
         db = FirebaseDatabase.getInstance().getReference();
 
-        viewPager2 = findViewById(R.id.recycler);
+        recyclerView = findViewById(R.id.recycler);
+        recyclerView.setLayoutManager(new GridLayoutManager(MainSpeel.this, 2));
+        speelList = new ArrayList<>();
 
-        FirebaseRecyclerOptions<Speel> options
-                = new FirebaseRecyclerOptions.Builder<Speel>()
-                .setQuery(db.child("Testen").child("Vragen").child(categorie), Speel.class)
-                .build();
+//        FirebaseRecyclerOptions<Speel> options
+//                = new FirebaseRecyclerOptions.Builder<Speel>()
+//                .setQuery(db.child("Testen").child("Vragen").child(categorie), Speel.class)
+//                .build();
+//
 
-        adapter = new SpeelAdapter(options);
-        viewPager2.setAdapter(adapter);
+        getFirebaseData();
+
     }
 
-    @Override protected void onStart() {
-        super.onStart();
-        adapter.startListening();
+    public void getFirebaseData() {
+        Query query = db.child("Testen").child("Vragen").child(categorie);
+        query.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                if (dataSnapshot.hasChildren()) {
+                    for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                        Speel speel = new Speel();
+
+                        speel.setImage(snapshot.child("Image").getValue(String.class));
+                        speel.setGeluid(snapshot.child("Geluid").getValue(String.class));
+
+                        speelList.add(speel);
+                    }
+
+                    startAdapter();
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
     }
 
-    @Override protected void onStop() {
-        super.onStop();
-        adapter.stopListening();
+    public void startAdapter() {
+        antwoordList = new ArrayList<>();
+        int rGetal;
+        repNumb = new ArrayList();
+
+        antwoordList.add(speelList.get(count));
+
+        for (int i = 0; i < 5; i++) {
+            rGetal = new Random().nextInt(speelList.size());
+            Log.d(TAG, "startAdapter: " + rGetal);
+            repNumb.add(rGetal);
+            antwoordList.add(speelList.get(rGetal));
+//            for (int x = 0; i < speelList.size(); i++) {
+//                if (repNumb.get(x).equals(rGetal)) {
+//                    antwoordList.remove(antwoordList.get(rGetal));
+////                    i--;
+//                } else {
+
+//                }
+//            }
+        }
+        Collections.shuffle(antwoordList);
+
+        adapter = new SpeelAdapter(getApplicationContext(), antwoordList);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setAdapter(adapter);
+
+        adapter.notifyDataSetChanged();
     }
+
+
+    public void onClick() {
+        Log.d(TAG, "onClick: werkt");
+        count++;
+        startAdapter();
+    }
+//    @Override protected void onStart() {
+//        super.onStart();
+//        adapter.startListening();
+//    }
+//
+//    @Override protected void onStop() {
+//        super.onStop();
+//        adapter.stopListening();
+//    }
 }
