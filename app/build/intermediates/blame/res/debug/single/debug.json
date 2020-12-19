@@ -20,12 +20,12 @@
         "source": "/Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/res/layout/activity_speel.xml"
     },
     {
-        "merged": "/Users/abcdefg/AndroidStudioProjects/8amo2_1/app/build/intermediates/res/merged/debug/layout_activity_oefen.xml.flat",
-        "source": "/Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/res/layout/activity_oefen.xml"
-    },
-    {
         "merged": "/Users/abcdefg/AndroidStudioProjects/8amo2_1/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/abcdefg/AndroidStudioProjects/8amo2_1/app/build/intermediates/res/merged/debug/layout_activity_oefen.xml.flat",
+        "source": "/Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/res/layout/activity_oefen.xml"
     },
     {
         "merged": "/Users/abcdefg/AndroidStudioProjects/8amo2_1/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",

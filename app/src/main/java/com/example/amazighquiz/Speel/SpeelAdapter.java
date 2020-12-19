@@ -63,12 +63,12 @@ public class SpeelAdapter extends RecyclerView.Adapter<SpeelAdapter.SpeelViewHol
             final MainSpeel speel = new MainSpeel();
 
             imageView = itemView.findViewById(R.id.imageSpeel);
-            imageView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    speel.onClick();
-                }
-            });
+//            imageView.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//                    speel.onClick();
+//                }
+//            });
         }
     }
 }

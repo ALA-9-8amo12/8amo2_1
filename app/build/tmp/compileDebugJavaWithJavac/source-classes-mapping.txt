@@ -3,7 +3,6 @@ com/example/amazighquiz/Oefen/Categorie.java
 com/example/amazighquiz/Speel/SpeelAdapter.java
  com.example.amazighquiz.Speel.SpeelAdapter
  com.example.amazighquiz.Speel.SpeelAdapter$SpeelViewHolder
- com.example.amazighquiz.Speel.SpeelAdapter$SpeelViewHolder$1
 com/example/amazighquiz/Oefen/MainOefen.java
  com.example.amazighquiz.Oefen.MainOefen
 com/example/amazighquiz/Oefen/Oefen.java

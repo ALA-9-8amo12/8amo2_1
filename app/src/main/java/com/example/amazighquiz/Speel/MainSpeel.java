@@ -103,25 +103,37 @@ public class MainSpeel extends AppCompatActivity {
 
     public void startAdapter() {
         antwoordList = new ArrayList<>();
-        int rGetal;
         repNumb = new ArrayList();
+        int rGetal;
+        Boolean repBool = false;
 
         antwoordList.add(speelList.get(count));
+        repNumb.add(count);
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 1; i < 6; i++) {
             rGetal = new Random().nextInt(speelList.size());
-            Log.d(TAG, "startAdapter: " + rGetal);
-            repNumb.add(rGetal);
-            antwoordList.add(speelList.get(rGetal));
-//            for (int x = 0; i < speelList.size(); i++) {
-//                if (repNumb.get(x).equals(rGetal)) {
-//                    antwoordList.remove(antwoordList.get(rGetal));
-////                    i--;
-//                } else {
 
-//                }
-//            }
+            for (int x = 0; x < repNumb.size(); x++) {
+
+                if (repNumb.get(x).equals(rGetal)) {
+
+                    repBool = true;
+                    break;
+                } else {
+
+                    repBool = false;
+                }
+            }
+
+            if (!repBool) {
+                repNumb.add(rGetal);
+                antwoordList.add(speelList.get(rGetal));
+
+            } else {
+                i--;
+            }
         }
+
         Collections.shuffle(antwoordList);
 
         adapter = new SpeelAdapter(getApplicationContext(), antwoordList);
@@ -132,11 +144,11 @@ public class MainSpeel extends AppCompatActivity {
     }
 
 
-    public void onClick() {
-        Log.d(TAG, "onClick: werkt");
-        count++;
-        startAdapter();
-    }
+//    public void onClick() {
+//        Log.d(TAG, "onClick: werkt");
+//        count++;
+//        startAdapter();
+//    }
 //    @Override protected void onStart() {
 //        super.onStart();
 //        adapter.startListening();
