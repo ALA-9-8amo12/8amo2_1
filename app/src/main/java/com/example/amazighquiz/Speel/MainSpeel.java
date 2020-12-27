@@ -2,6 +2,7 @@ package com.example.amazighquiz.Speel;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
@@ -37,42 +38,40 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class MainSpeel extends AppCompatActivity {
+public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImageListener {
 
     private static final String TAG = "MyActivity";
-    ImageView imageView;
+    TextView vraag, amazighWoord;
     SpeelAdapter adapter;
     DatabaseReference db;
     RecyclerView recyclerView;
     String categorie;
+    String antwoord;
     List<Speel> speelList;
-    List<Speel> antwoordList;
+    List<Speel> quizList;
     List<Integer> repNumb;
-    int count;
+    int count = 0;
+    int guesses = 3;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_speel);
 
+        vraag = findViewById(R.id.vraag);
+        amazighWoord = findViewById(R.id.amazighWoord);
+
         Intent intent = getIntent();
         categorie = intent.getStringExtra(MainSpeelCategorieen.EXTRA_TEXT);
 
-        // database
         db = FirebaseDatabase.getInstance().getReference();
 
         recyclerView = findViewById(R.id.recycler);
         recyclerView.setLayoutManager(new GridLayoutManager(MainSpeel.this, 2));
         speelList = new ArrayList<>();
 
-//        FirebaseRecyclerOptions<Speel> options
-//                = new FirebaseRecyclerOptions.Builder<Speel>()
-//                .setQuery(db.child("Testen").child("Vragen").child(categorie), Speel.class)
-//                .build();
-//
-
         getFirebaseData();
-
     }
 
     public void getFirebaseData() {
@@ -84,9 +83,10 @@ public class MainSpeel extends AppCompatActivity {
                     for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                         Speel speel = new Speel();
 
+                        speel.setAmazigh(snapshot.child("Amazigh").getValue(String.class));
                         speel.setImage(snapshot.child("Image").getValue(String.class));
                         speel.setGeluid(snapshot.child("Geluid").getValue(String.class));
-
+                        speel.setVraag(snapshot.child("Vraag").getValue(String.class));
                         speelList.add(speel);
                     }
 
@@ -102,60 +102,63 @@ public class MainSpeel extends AppCompatActivity {
     }
 
     public void startAdapter() {
-        antwoordList = new ArrayList<>();
+        quizList = new ArrayList<>();
         repNumb = new ArrayList();
         int rGetal;
         Boolean repBool = false;
 
-        antwoordList.add(speelList.get(count));
+        vraag.setText(speelList.get(count).getVraag());
+        amazighWoord.setText(speelList.get(count).getAmazigh());
+
+        quizList.add(speelList.get(count));
+        antwoord = speelList.get(count).toString();
         repNumb.add(count);
 
         for (int i = 1; i < 6; i++) {
             rGetal = new Random().nextInt(speelList.size());
 
             for (int x = 0; x < repNumb.size(); x++) {
-
                 if (repNumb.get(x).equals(rGetal)) {
 
                     repBool = true;
                     break;
                 } else {
-
                     repBool = false;
                 }
             }
 
             if (!repBool) {
                 repNumb.add(rGetal);
-                antwoordList.add(speelList.get(rGetal));
+                quizList.add(speelList.get(rGetal));
 
             } else {
                 i--;
             }
         }
+        Collections.shuffle(quizList);
 
-        Collections.shuffle(antwoordList);
-
-        adapter = new SpeelAdapter(getApplicationContext(), antwoordList);
+        adapter = new SpeelAdapter(getApplicationContext(), quizList, this);
         recyclerView.setHasFixedSize(true);
         recyclerView.setAdapter(adapter);
 
         adapter.notifyDataSetChanged();
     }
 
+    @Override
+    public void onImageClick(int position) {
+        if (antwoord.equals(quizList.get(position).toString())) {
+            Toast.makeText(this, "correct", Toast.LENGTH_SHORT).show();
+            guesses = 3;
+            count++;
+            startAdapter();
 
-//    public void onClick() {
-//        Log.d(TAG, "onClick: werkt");
-//        count++;
-//        startAdapter();
-//    }
-//    @Override protected void onStart() {
-//        super.onStart();
-//        adapter.startListening();
-//    }
-//
-//    @Override protected void onStop() {
-//        super.onStop();
-//        adapter.stopListening();
-//    }
+        } else if (guesses > 0){
+            Toast.makeText(this, "Fout: " + guesses + " gokken over"  , Toast.LENGTH_SHORT).show();
+            guesses--;
+        } else {
+            count++;
+            guesses = 3;
+            startAdapter();
+        }
+    }
 }

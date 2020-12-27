@@ -30,10 +30,12 @@ public class SpeelAdapter extends RecyclerView.Adapter<SpeelAdapter.SpeelViewHol
 
     Context context;
     List<Speel> list;
+    OnImageListener mOnImageListener;
 
-    public SpeelAdapter(Context context, List<Speel> list) {
+    public SpeelAdapter(Context context, List<Speel> list, OnImageListener onImageListener) {
         this.context = context;
         this.list = list;
+        this.mOnImageListener = onImageListener;
     }
 
     @NonNull
@@ -41,7 +43,7 @@ public class SpeelAdapter extends RecyclerView.Adapter<SpeelAdapter.SpeelViewHol
     public SpeelAdapter.SpeelViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.activity_speel, parent, false);
 
-        return new SpeelViewHolder(view);
+        return new SpeelViewHolder(view, mOnImageListener);
     }
 
     @Override
@@ -54,21 +56,26 @@ public class SpeelAdapter extends RecyclerView.Adapter<SpeelAdapter.SpeelViewHol
         return list.size();
     }
 
-    public class SpeelViewHolder extends RecyclerView.ViewHolder {
+    public class SpeelViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         ImageView imageView;
+        OnImageListener onImageListener;
 
-        public SpeelViewHolder(@NonNull View itemView) {
+        public SpeelViewHolder(@NonNull View itemView, OnImageListener onImageListener) {
             super(itemView);
-            final MainSpeel speel = new MainSpeel();
-
             imageView = itemView.findViewById(R.id.imageSpeel);
-//            imageView.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View view) {
-//                    speel.onClick();
-//                }
-//            });
+            this.onImageListener = onImageListener;
+
+            itemView.setOnClickListener(this);
         }
+
+        @Override
+        public void onClick(View view) {
+            onImageListener.onImageClick(getAdapterPosition());
+        }
+    }
+
+    public interface OnImageListener {
+        void onImageClick(int position);
     }
 }
