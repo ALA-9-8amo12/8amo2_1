@@ -41,17 +41,18 @@ import java.util.Random;
 public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImageListener {
 
     private static final String TAG = "MyActivity";
-    TextView vraag, amazighWoord;
-    SpeelAdapter adapter;
-    DatabaseReference db;
-    RecyclerView recyclerView;
-    String categorie;
-    String antwoord;
-    List<Speel> speelList;
-    List<Speel> quizList;
-    List<Integer> repNumb;
-    int count = 0;
-    int guesses = 3;
+    private TextView vraag, amazighWoord, scoreText;
+    private SpeelAdapter adapter;
+    private DatabaseReference db;
+    private RecyclerView recyclerView;
+    private String categorie;
+    private String antwoord;
+    private List<Speel> speelList;
+    private List<Speel> quizList;
+    private List<Integer> repNumb;
+    private int count = 0;
+    private int guesses = 3;
+    private int score;
 
 
     @Override
@@ -61,6 +62,7 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
 
         vraag = findViewById(R.id.vraag);
         amazighWoord = findViewById(R.id.amazighWoord);
+        scoreText = findViewById(R.id.score);
 
         Intent intent = getIntent();
         categorie = intent.getStringExtra(MainSpeelCategorieen.EXTRA_TEXT);
@@ -150,6 +152,7 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
             Toast.makeText(this, "correct", Toast.LENGTH_SHORT).show();
             guesses = 3;
             count++;
+            score++;
             startAdapter();
 
         } else if (guesses > 0){
@@ -159,6 +162,18 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
             count++;
             guesses = 3;
             startAdapter();
+        }
+        saveScore();
+    }
+
+    public void saveScore() {
+        scoreText.setText(score + "★");
+//        Log.d(TAG, "saveScore: " + count + "sdcsdc");
+
+        if(count == (speelList.size() - 1)) {
+//            Log.d(TAG, "saveScore: " + speelList.size());
+            db.child("score").push().setValue(score);
+            finish();
         }
     }
 }
