@@ -1,4 +1,4 @@
-#Sun Jan 10 19:49:51 CET 2021
+#Thu Jan 14 15:40:45 CET 2021
 base.0=/Users/abcdefg/AndroidStudioProjects/8amo2_1/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

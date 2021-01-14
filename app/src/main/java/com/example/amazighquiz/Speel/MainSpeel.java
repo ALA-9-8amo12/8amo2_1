@@ -43,7 +43,7 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
     private static final String TAG = "MyActivity";
     private TextView vraag, amazighWoord, scoreText;
     private SpeelAdapter adapter;
-    private DatabaseReference db;
+    private DatabaseReference db, dbScore;
     private RecyclerView recyclerView;
     private String categorie;
     private String antwoord;
@@ -68,6 +68,7 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
         categorie = intent.getStringExtra(MainSpeelCategorieen.EXTRA_TEXT);
 
         db = FirebaseDatabase.getInstance().getReference();
+        dbScore = db.child("Users").child("sDh8LLfub0S8S2Uk0eVyTwapihb2").child("Score");
 
         recyclerView = findViewById(R.id.recycler);
         recyclerView.setLayoutManager(new GridLayoutManager(MainSpeel.this, 2));
@@ -168,12 +169,15 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
 
     public void saveScore() {
         scoreText.setText(score + "★");
-//        Log.d(TAG, "saveScore: " + count + "sdcsdc");
 
-        if(count == (speelList.size() - 1)) {
-//            Log.d(TAG, "saveScore: " + speelList.size());
-            db.child("score").push().setValue(score);
-            finish();
+        if(count == speelList.size() - 1) {
+            Score scoreM = new Score(String.valueOf(score));
+            dbScore.child(categorie).setValue(scoreM);
+
+            Intent intent = new Intent(MainSpeel.this, MainFinish.class);
+            intent.putExtra("score", String.valueOf(score));
+            intent.putExtra("total", String.valueOf(speelList.size()));
+            startActivity(intent);
         }
     }
 }

@@ -1,8 +1,7 @@
 package com.example.amazighquiz.Speel;
 
 public class Speel {
-    private String Categorie, Vraag,
-            Ned, Amazigh, Image, Geluid, Score;
+    private String Vraag, Amazigh, Image, Geluid;
 
     public Speel() {
     }
@@ -33,12 +32,5 @@ public class Speel {
     }
     public void setGeluid(String geluid) {
         Geluid = geluid;
-    }
-
-    public String getScore() {
-        return Score;
-    }
-    public void setScore(String score) {
-        Score = score;
     }
 }

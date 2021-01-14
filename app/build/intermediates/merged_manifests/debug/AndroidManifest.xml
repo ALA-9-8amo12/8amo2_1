@@ -24,6 +24,7 @@
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.amazighquiz.Speel.MainSpeelCategorieen" />
         <activity android:name="com.example.amazighquiz.Speel.MainSpeel" />
+        <activity android:name="com.example.amazighquiz.Speel.MainFinish" />
         <activity
             android:name="com.example.amazighquiz.MainActivity"
             android:label="Home" />

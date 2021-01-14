@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/vraag"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:textSize="24sp"
@@ -24,15 +24,16 @@
         android:id="@+id/amazighWoord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="sdcsdcs"
-        android:textSize="24sp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="164dp"
         android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.37"
-        app:layout_constraintStart_toEndOf="@+id/vraag"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.014" />
+        app:layout_constraintVertical_bias="0.105" />
 
     <TextView
         android:id="@+id/score"
@@ -56,7 +57,7 @@
         android:id="@+id/recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="120dp"
         android:layout_marginBottom="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

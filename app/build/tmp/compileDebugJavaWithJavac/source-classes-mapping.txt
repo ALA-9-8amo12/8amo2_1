@@ -6,6 +6,10 @@ com/example/amazighquiz/Speel/SpeelAdapter.java
  com.example.amazighquiz.Speel.SpeelAdapter$SpeelViewHolder
 com/example/amazighquiz/Oefen/MainOefen.java
  com.example.amazighquiz.Oefen.MainOefen
+com/example/amazighquiz/Speel/Score.java
+ com.example.amazighquiz.Speel.Score
+com/example/amazighquiz/Speel/MainFinish.java
+ com.example.amazighquiz.Speel.MainFinish
 com/example/amazighquiz/Oefen/Oefen.java
  com.example.amazighquiz.Oefen.Oefen
 com/example/amazighquiz/MainActivity.java
@@ -29,19 +33,19 @@ com/example/amazighquiz/Oefen/OefenCategorieen.java
  com.example.amazighquiz.Oefen.OefenCategorieen
 com/example/amazighquiz/BuildConfig.java
  com.example.amazighquiz.BuildConfig
-com/example/amazighquiz/Speel/Speel.java
- com.example.amazighquiz.Speel.Speel
+com/example/amazighquiz/Speel/MainSpeelCategorieen.java
+ com.example.amazighquiz.Speel.MainSpeelCategorieen
+ com.example.amazighquiz.Speel.MainSpeelCategorieen$1
 com/example/amazighquiz/Oefen/OefenAdapter.java
  com.example.amazighquiz.Oefen.OefenAdapter
  com.example.amazighquiz.Oefen.OefenAdapter$Viewholder
 com/example/amazighquiz/Speel/Categorie.java
  com.example.amazighquiz.Speel.Categorie
-com/example/amazighquiz/Oefen/MainOefenCategorieen.java
- com.example.amazighquiz.Oefen.MainOefenCategorieen
- com.example.amazighquiz.Oefen.MainOefenCategorieen$1
-com/example/amazighquiz/Speel/MainSpeelCategorieen.java
- com.example.amazighquiz.Speel.MainSpeelCategorieen
- com.example.amazighquiz.Speel.MainSpeelCategorieen$1
 com/example/amazighquiz/Speel/MainSpeel.java
  com.example.amazighquiz.Speel.MainSpeel
  com.example.amazighquiz.Speel.MainSpeel$1
+com/example/amazighquiz/Oefen/MainOefenCategorieen.java
+ com.example.amazighquiz.Oefen.MainOefenCategorieen
+ com.example.amazighquiz.Oefen.MainOefenCategorieen$1
+com/example/amazighquiz/Speel/Speel.java
+ com.example.amazighquiz.Speel.Speel

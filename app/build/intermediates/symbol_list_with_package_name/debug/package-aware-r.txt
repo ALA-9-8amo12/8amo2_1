@@ -1639,6 +1639,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backButton
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1840,6 +1841,7 @@ id save_overlay_view
 id sawtooth
 id scale
 id score
+id scoreText
 id screen
 id scroll
 id scrollIndicatorDown
@@ -2007,6 +2009,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_main_finish
 layout activity_main_oefen
 layout activity_main_oefen_categorieen
 layout activity_main_speel
