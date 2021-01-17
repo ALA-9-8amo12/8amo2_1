@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.amazighquiz.Oefen.MainOefen;
 import com.example.amazighquiz.Oefen.MainOefenCategorieen;
+import com.example.amazighquiz.Over.Over;
 import com.example.amazighquiz.Speel.MainSpeelCategorieen;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void configureOverActivity(View view) {
-        startActivity(new Intent(MainActivity.this, MainOefenCategorieen.class));
+        startActivity(new Intent(MainActivity.this, Over.class));
     }
 
 }

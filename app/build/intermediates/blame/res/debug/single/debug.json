@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_oefen.xml.flat",
         "source": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\src\\main\\res\\layout\\activity_oefen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo.png.flat",
+        "source": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\src\\main\\res\\drawable-v24\\logo.png"
     },
     {
         "merged": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -72,6 +80,10 @@
         "source": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_over.xml.flat",
+        "source": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\src\\main\\res\\layout\\activity_over.xml"
+    },
+    {
         "merged": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -90,6 +102,10 @@
     {
         "merged": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_splashscreen.jpg.flat",
         "source": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\src\\main\\res\\drawable-v24\\splashscreen.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_user.xml.flat",
+        "source": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\src\\main\\res\\layout\\activity_register_user.xml"
     },
     {
         "merged": "C:\\Users\\Maurice\\Desktop\\School\\L3\\ALA\\8amo2_1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_speel_categorieen.xml.flat",

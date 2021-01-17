@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Over.Over">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Deze app is in opdacht van het Universiteit Leiden gemaakt door het bedrijf MonkeyBusiness.\n\nContact gegevens:\n\nUniversiteit Leiden\n\nEmail: example@example.nl\nFax: example@example.nl\nTelefoon: 0101234567\n\n\nMoneyBussines\n\nEmail: example@example.nl\nFax: example@example.nl\nTelefoon: 0101234567"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewAccount"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <TextView
+        android:id="@+id/textViewAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="Login of maak een account:"
+        app:layout_constraintBottom_toTopOf="@+id/signIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInfo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:background="#2196F3"
+        android:onClick="configureLoginActivity"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/registreer"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewAccount"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInfo"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <Button
+        android:id="@+id/registreer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:background="#FF5722"
+        android:text="registreer"
+        android:textColor="#FFFFFF"
+        android:onClick="configureRegistreerActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textViewInfo"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInfo"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:background="#F44336"
+        android:onClick="configureLoginActivity"
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/registreer"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewAccount"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInfo"
+        app:layout_constraintVertical_bias="0.082" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

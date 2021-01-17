@@ -5,6 +5,10 @@ com/example/amazighquiz/Speel/SpeelAdapter.java
  com.example.amazighquiz.Speel.SpeelAdapter$Viewholder
 com/example/amazighquiz/Oefen/MainOefen.java
  com.example.amazighquiz.Oefen.MainOefen
+com/example/amazighquiz/Over/RegisterUser.java
+ com.example.amazighquiz.Over.RegisterUser
+ com.example.amazighquiz.Over.RegisterUser$1
+ com.example.amazighquiz.Over.RegisterUser$1$1
 com/example/amazighquiz/Oefen/Oefen.java
  com.example.amazighquiz.Oefen.Oefen
 com/example/amazighquiz/MainActivity.java
@@ -24,6 +28,9 @@ com/example/amazighquiz/Speel/SpeelCategorieAdapter.java
 com/example/amazighquiz/SplashScreen.java
  com.example.amazighquiz.SplashScreen
  com.example.amazighquiz.SplashScreen$1
+com/example/amazighquiz/Over/LoginActivity.java
+ com.example.amazighquiz.Over.LoginActivity
+ com.example.amazighquiz.Over.LoginActivity$1
 com/example/amazighquiz/Oefen/OefenCategorieen.java
  com.example.amazighquiz.Oefen.OefenCategorieen
 com/example/amazighquiz/BuildConfig.java
@@ -41,5 +48,10 @@ com/example/amazighquiz/Speel/MainSpeel.java
 com/example/amazighquiz/Oefen/MainOefenCategorieen.java
  com.example.amazighquiz.Oefen.MainOefenCategorieen
  com.example.amazighquiz.Oefen.MainOefenCategorieen$1
+com/example/amazighquiz/Over/Over.java
+ com.example.amazighquiz.Over.Over
+ com.example.amazighquiz.Over.Over$1
+com/example/amazighquiz/Over/User.java
+ com.example.amazighquiz.Over.User
 com/example/amazighquiz/Speel/Speel.java
  com.example.amazighquiz.Speel.Speel
