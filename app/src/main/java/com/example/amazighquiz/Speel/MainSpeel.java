@@ -59,10 +59,7 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_speel);
-
-        vraag = findViewById(R.id.vraag);
-        amazighWoord = findViewById(R.id.amazighWoord);
-        scoreText = findViewById(R.id.score);
+        setTextView();
 
         Intent intent = getIntent();
         categorie = intent.getStringExtra(MainSpeelCategorieen.EXTRA_TEXT);
@@ -177,7 +174,14 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
             Intent intent = new Intent(MainSpeel.this, MainFinish.class);
             intent.putExtra("score", String.valueOf(score));
             intent.putExtra("total", String.valueOf(speelList.size()));
+
             startActivity(intent);
         }
+    }
+
+    public void setTextView() {
+        vraag = findViewById(R.id.vraag);
+        amazighWoord = findViewById(R.id.amazighWoord);
+        scoreText = findViewById(R.id.score);
     }
 }
