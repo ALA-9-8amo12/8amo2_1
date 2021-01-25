@@ -10,6 +10,8 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -47,12 +49,13 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
     private RecyclerView recyclerView;
     private String categorie;
     private String antwoord;
-    private List<Speel> speelList;
+    private static List<Speel> speelList;
     private List<Speel> quizList;
     private List<Integer> repNumb;
     private int count = 0;
     private int guesses = 3;
     private int score;
+    private MediaPlayer mediaPlayer;
 
 
     @Override
@@ -137,10 +140,11 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
         }
         Collections.shuffle(quizList);
 
+
         adapter = new SpeelAdapter(getApplicationContext(), quizList, this);
         recyclerView.setHasFixedSize(true);
         recyclerView.setAdapter(adapter);
-
+        playSound();
         adapter.notifyDataSetChanged();
     }
 
@@ -176,6 +180,24 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
             intent.putExtra("total", String.valueOf(speelList.size()));
 
             startActivity(intent);
+        }
+    }
+
+    public void playSound() {
+        mediaPlayer = new MediaPlayer();
+        mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        try {
+            Log.d(TAG, "playSound: works");
+            mediaPlayer.setDataSource(speelList.get(count).getGeluid());
+            mediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+                @Override
+                public void onPrepared(MediaPlayer mp) {
+                    mp.start();
+                }
+            });
+            mediaPlayer.prepare();
+        }catch (Exception e) {
+            Log.d(TAG, "playSound: "+ e);
         }
     }
 

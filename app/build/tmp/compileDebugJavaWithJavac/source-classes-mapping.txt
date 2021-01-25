@@ -44,6 +44,7 @@ com/example/amazighquiz/Speel/Categorie.java
 com/example/amazighquiz/Speel/MainSpeel.java
  com.example.amazighquiz.Speel.MainSpeel
  com.example.amazighquiz.Speel.MainSpeel$1
+ com.example.amazighquiz.Speel.MainSpeel$2
 com/example/amazighquiz/Oefen/MainOefenCategorieen.java
  com.example.amazighquiz.Oefen.MainOefenCategorieen
  com.example.amazighquiz.Oefen.MainOefenCategorieen$1

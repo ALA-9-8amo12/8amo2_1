@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-30:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/fafe6fc6cf84c5b73938e7cfbec0e0d0/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/033fa273db51aa87cae83056de67d807/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/f65e7d690d0436991c66205f0487ed30/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
@@ -59,25 +59,35 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/abcdefg/.gradle/ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/8c32280e7ca510cc26504f44ad41608f/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/1e3dec554e122611f1853e4214e27b1f/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/bbc7ef4a71ac53d02c29369625c5d897/jetified-firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
-INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:4:1-62
+MERGED from [com.firebaseui:firebase-ui-database:6.2.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/03cb3492d7bea55870494159536c816a/jetified-firebase-ui-database-6.2.1/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:6.2.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/03cb3492d7bea55870494159536c816a/jetified-firebase-ui-database-6.2.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/8afc96a6fe81e71aa883641e47cb94f7/jetified-firebase-database-19.2.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/8afc96a6fe81e71aa883641e47cb94f7/jetified-firebase-database-19.2.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/c2d0329c6d7368663ae073d1308d10ab/jetified-firebase-storage-19.1.1/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/c2d0329c6d7368663ae073d1308d10ab/jetified-firebase-storage-19.1.1/AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:4:18-60
 application
-ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:5:5-27:19
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:6:5-28:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/fafe6fc6cf84c5b73938e7cfbec0e0d0/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/fafe6fc6cf84c5b73938e7cfbec0e0d0/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/033fa273db51aa87cae83056de67d807/material-1.1.0/AndroidManifest.xml:22:5-20
@@ -111,57 +121,57 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/abcd
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/cdfea8f3da9d3d8e26bbb73a40c2de98/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:12:9-40
 activity#com.example.amazighquiz.Speel.MainSpeelCategorieen
-ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:12:9-73
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:13:9-73
 	android:name
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:12:19-61
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:13:19-61
 activity#com.example.amazighquiz.Speel.MainSpeel
-ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:13:9-53
-	android:name
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:13:19-50
-activity#com.example.amazighquiz.Speel.MainFinish
 ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:14:9-53
 	android:name
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:14:19-51
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:14:19-50
+activity#com.example.amazighquiz.Speel.MainFinish
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:15:9-53
+	android:name
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:15:19-51
 activity#com.example.amazighquiz.MainActivity
-ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:15:9-17:36
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:16:9-18:36
 	android:label
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:17:13-33
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:18:13-33
 	android:name
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:17:13-41
 activity#com.example.amazighquiz.Oefen.MainOefen
-ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:18:9-53
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:19:9-53
 	android:name
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:18:19-50
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:19:19-50
 activity#com.example.amazighquiz.Oefen.MainOefenCategorieen
-ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:19:9-64
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:20:9-64
 	android:name
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:19:19-61
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:20:19-61
 activity#com.example.amazighquiz.SplashScreen
-ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:20:9-26:20
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:20:19-47
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:21:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml
@@ -286,14 +296,6 @@ INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidM
 		INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml
 		ADDED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/abcdefg/AndroidStudioProjects/8amo2_1/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from [com.firebaseui:firebase-ui-database:6.2.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/03cb3492d7bea55870494159536c816a/jetified-firebase-ui-database-6.2.1/AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-database:19.2.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/8afc96a6fe81e71aa883641e47cb94f7/jetified-firebase-database-19.2.1/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:19.2.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/8afc96a6fe81e71aa883641e47cb94f7/jetified-firebase-database-19.2.1/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/c2d0329c6d7368663ae073d1308d10ab/jetified-firebase-storage-19.1.1/AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/c2d0329c6d7368663ae073d1308d10ab/jetified-firebase-storage-19.1.1/AndroidManifest.xml:27:5-67
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-database:6.2.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/03cb3492d7bea55870494159536c816a/jetified-firebase-ui-database-6.2.1/AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:19.2.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/8afc96a6fe81e71aa883641e47cb94f7/jetified-firebase-database-19.2.1/AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-storage:19.1.1] /Users/abcdefg/.gradle/caches/transforms-2/files-2.1/c2d0329c6d7368663ae073d1308d10ab/jetified-firebase-storage-19.1.1/AndroidManifest.xml:26:5-79
