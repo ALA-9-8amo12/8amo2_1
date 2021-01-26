@@ -14,7 +14,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Over extends AppCompatActivity {
 
-    private Button buttonLogin, buttonRegister, buttonLogout;
+    private Button buttonLogin, buttonRegister, buttonLogout, buttonHome;
 
     private TextView textViewAccount;
 
@@ -30,6 +30,7 @@ public class Over extends AppCompatActivity {
         buttonLogin = (Button) findViewById(R.id.signIn);
         buttonRegister = (Button) findViewById(R.id.registreer);
         buttonLogout = (Button) findViewById(R.id.logout);
+        buttonHome = (Button) findViewById(R.id.home);
 
         textViewAccount = (TextView) findViewById(R.id.textViewAccount);
 
@@ -60,5 +61,9 @@ public class Over extends AppCompatActivity {
 
     public void configureRegistreerActivity(View view) {
         startActivity(new Intent(Over.this, RegisterUser.class));
+    }
+
+    public void configureHomeActivity(View view) {
+        startActivity(new Intent(Over.this, MainActivity.class));
     }
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.amazighquiz">
+<uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -14,6 +15,7 @@
         <activity android:name=".Over.LoginActivity" />
         <activity android:name=".Speel.MainSpeelCategorieen" />
         <activity android:name=".Speel.MainSpeel" />
+        <activity android:name=".Speel.MainFinish"/>
         <activity
             android:name=".MainActivity"
             android:label="Home" />

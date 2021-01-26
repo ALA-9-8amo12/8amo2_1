@@ -97,4 +97,18 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewInfo"
         app:layout_constraintVertical_bias="0.082" />
 
+    <Button
+        android:id="@+id/home"
+        android:layout_width="317dp"
+        android:layout_height="44dp"
+        android:background="#009688"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:onClick="configureHomeActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registreer" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
