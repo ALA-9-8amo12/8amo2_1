@@ -178,6 +178,7 @@ public class MainSpeel extends AppCompatActivity implements SpeelAdapter.OnImage
             Intent intent = new Intent(MainSpeel.this, MainFinish.class);
             intent.putExtra("score", String.valueOf(score));
             intent.putExtra("total", String.valueOf(speelList.size()));
+            intent.putExtra("categorie", String.valueOf(categorie));
 
             startActivity(intent);
         }

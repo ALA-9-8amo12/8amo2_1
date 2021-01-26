@@ -99,10 +99,10 @@
 
     <Button
         android:id="@+id/score"
-        android:onClick="configureScoreActivity"
         android:layout_width="155dp"
         android:layout_height="155dp"
         android:backgroundTint="#FFE513"
+        android:onClick="configureScoreActivity"
         android:text="@string/Score"
         android:textColor="#FFFFFF"
         android:textSize="24sp"

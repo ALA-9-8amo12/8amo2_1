@@ -497,7 +497,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="ce11182bcd35200b03" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_27" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -506,7 +506,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -514,6 +519,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -617,6 +623,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1611653452272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.-386.1440.860/1920.389.1440.860/-3040.-120.1600.1160@0.0.1920.1040" timestamp="1611653452272" />
     <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1605602500975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -630,6 +640,22 @@
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1360.-332.1360.728/1920.389.1440.860/-2640.-138.1280.984@0.0.1920.1040" timestamp="1605788721133" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1680.36.1680.1010@0.0.1920.1040" timestamp="1606120612070" />
+    <state width="1877" height="37" key="GridCell.Tab.0.bottom" timestamp="1611682375330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="37" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.-386.1440.860/1920.389.1440.860/-3040.-120.1600.1160@0.0.1920.1040" timestamp="1611682375330" />
+    <state width="1877" height="37" key="GridCell.Tab.0.center" timestamp="1611682375330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="37" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.-386.1440.860/1920.389.1440.860/-3040.-120.1600.1160@0.0.1920.1040" timestamp="1611682375330" />
+    <state width="1877" height="37" key="GridCell.Tab.0.left" timestamp="1611682375329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="37" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.-386.1440.860/1920.389.1440.860/-3040.-120.1600.1160@0.0.1920.1040" timestamp="1611682375329" />
+    <state width="1877" height="37" key="GridCell.Tab.0.right" timestamp="1611682375330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="37" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.-386.1440.860/1920.389.1440.860/-3040.-120.1600.1160@0.0.1920.1040" timestamp="1611682375330" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606121686686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
